@@ -51,7 +51,7 @@ const Resume = () => {
           }`}
         >
           <FaUserGroup />
-          Testimonial
+          Reference
         </div>
       </div>
 

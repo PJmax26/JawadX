@@ -44,11 +44,11 @@ const Footer = () => {
             <p>Frontend Developer</p>
           </div>
 
-          <div className="flex space-x-4 w-fit">
+          <div className="flex align-center space-x-3 w-fit">
             <li className="list-none transition_ease hover:text-orange">
               <a
                 href="https://twitter.com/Nassam_Jawad"
-                className="hlg"
+                className="hmd"
                 target="_blank"
               >
                 <BsTwitterX />
