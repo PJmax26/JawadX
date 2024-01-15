@@ -5,9 +5,9 @@ import { FaDownload } from "react-icons/fa6";
 const Hero = () => (
   <section
     id="home"
-    className="bg-indigo_dark grid grid-cols-1 sm:grid-cols-2 mt-10 sm:mt-25"
+    className="bg-indigo_dark grid gap-5 grid-cols-1 sm:grid-cols-2 mt-10 sm:mt-25"
   >
-    <div className="">
+    <div className="flex justify-end">
       <img src={Profile} className="hidden sm:block" />
     </div>
     <div className="flex align-center">

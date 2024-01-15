@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <h3 className="text-center">
         <span className="text-orange">Contact</span> Me
       </h3>
@@ -17,8 +17,8 @@ const Footer = () => {
         <div className="flex justify-center align-center space-x-3">
           <BsTwitterX className="hlg text-orange" />
           <div>
-            <h1 className="hmd">X/Twitter</h1>
-            <p className="text-gray-500">@Nassam_Jawad</p>
+            <h1 className="hmd">WhatsApp</h1>
+            <p className="text-gray-500">+233 59 473 1393</p>
           </div>
         </div>
         <div className="flex my-5 sm:m-0 justify-center align-center space-x-3">
@@ -45,6 +45,15 @@ const Footer = () => {
           </div>
 
           <div className="flex space-x-4 w-fit">
+            <li className="list-none transition_ease hover:text-orange">
+              <a
+                href="https://twitter.com/Nassam_Jawad"
+                className="hlg"
+                target="_blank"
+              >
+                <BsTwitterX />
+              </a>
+            </li>
             <li className="list-none transition_ease hover:text-orange">
               <a
                 href="https://www.facebook.com/code.pj.7"

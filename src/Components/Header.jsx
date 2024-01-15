@@ -74,7 +74,7 @@ const Header = () => {
 
       <nav
         id="mobile_nav"
-        className={`flex-col md:hidden bg-orange p-5 fixed top-0 w-3/4 h-1/3 transition_ease rounded-r-full ${
+        className={`flex-col md:hidden bg-orange p-5 fixed top-0 w-3/4 h-fit transition_ease rounded-r-full ${
           nav === "close" ? "" : "active"
         }`}
       >

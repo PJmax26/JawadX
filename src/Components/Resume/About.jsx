@@ -4,14 +4,14 @@ import Profile2 from "../../asserts/code-1-bg.png";
 const About = ({ active }) => {
   return (
     <div className={`${active === "about" ? "block" : "hidden"}`}>
-      <div className="flex-cols md:flex justify-between align-center mt-5">
+      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 align-center mt-5">
         <div
           id="about_pic_box"
-          className="w-full md:w-1/3 px-5 flex justify-center align-center"
+          className="px-5 flex justify-center align-center"
         >
           <img id="about_pic" src={Profile2} />
         </div>
-        <div className="w-full mt-5 md:m-0  md:w-2/3 p-5">
+        <div className="mt-5 md:m-0 p-5">
           <h1 className="hlg">My name is Nassam Mohammed Jawad</h1>
           <p className="my-5">
             I am a front-end developer with a strong interest in designing

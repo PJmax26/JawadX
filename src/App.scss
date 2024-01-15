@@ -105,7 +105,7 @@ header {
 }
 
 #about_pic {
-  width: 100%;
+  width: 70%;
 }
 
 #mobile_nav {
@@ -122,9 +122,9 @@ header {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 870px) {
   #about_pic {
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -139,5 +139,9 @@ header {
     width: 4.5rem;
     height: 4.5rem;
     font-size: 12px;
+  }
+
+  #about_pic {
+    width: 60%;
   }
 }
