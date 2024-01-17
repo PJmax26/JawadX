@@ -11,7 +11,7 @@ import vscode from "./asserts/vscode.png";
 export const servicesList = [
   {
     id: 1,
-    title: "Website Building",
+    title: "Building Websites",
     desc: "With my skills in HTML, CSS, Tailwind, JavaScript... and my kin eye for good designs, I bring stunning web interfaces to life.",
   },
   {

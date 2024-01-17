@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
 
       <section className="py-5 align- grid grid-cols-1 sm:grid-cols-3">
         <div className="flex justify-center align-center space-x-3">
-          <BsTwitterX className="hlg text-orange" />
+          <FaWhatsapp className="hxl text-orange" />
           <div>
             <h1 className="hmd">WhatsApp</h1>
             <p className="text-gray-500">+233 59 473 1393</p>

@@ -1,6 +1,7 @@
 import Profile from "../asserts/profile-bg.png";
 import { FaPaperPlane } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa6";
+import CV from "../asserts/Resume-re.pdf";
 
 const Hero = () => (
   <section
@@ -32,10 +33,14 @@ const Hero = () => (
             <FaPaperPlane />
             <span>Email Me</span>
           </a>
-          <button className="border-2 border-grey hover:border-dark transition_ease py-3 px-5 rounded-xl flex align-center space-x-2">
+          <a
+            href={CV}
+            download
+            className="border-2 border-grey hover:border-dark transition_ease py-3 px-5 rounded-xl flex align-center space-x-2"
+          >
             <FaDownload />
             <span>Get CV</span>
-          </button>
+          </a>
         </div>
       </div>
     </div>
