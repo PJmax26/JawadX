@@ -1,6 +1,8 @@
 import { projectsList } from "../Data";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+const arr = projectsList.slice(0).reverse();
+
 const Work = () => {
   return (
     <section id="work">
@@ -9,7 +11,7 @@ const Work = () => {
       </h3>
       <h1 className="hlg text-center">Fun, Personal & Professional Projects</h1>
       <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-5 cursor-default">
-        {projectsList.map(({ id, title, stack, desc, github, site, rank }) => (
+        {arr.map(({ id, title, stack, desc, github, site, rank }) => (
           <div
             key={id}
             className="bg-indigo_dark text-gray-400 px-8 py-10 rounded-md relative"

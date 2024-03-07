@@ -24,11 +24,6 @@ export const servicesList = [
     title: "Web Application Design",
     desc: "I bring into your web applications great design and user experience that keeps your visitors engaged",
   },
-  // {
-  //   id: 4,
-  //   title: "Frontend Development Tutor",
-  //   desc: "Do you want to start your journey as a developer ? Not only will I show you the steps, but also provide necessary resourses to keep you going",
-  // },
 ];
 
 export const skillsList = [
@@ -82,14 +77,6 @@ export const skillsList = [
 export const projectsList = [
   {
     id: 1,
-    title: "Designer Portfolio Website",
-    stack: "HTML + CSS + JavaScript",
-    desc: "Responsive Frontend Developer portfolio website with a great user interface.",
-    github: "https://github.com/PJmax26/Designer-Portfolio",
-    site: "https://dori-web-designer.netlify.app/",
-  },
-  {
-    id: 2,
     title: "Opay(Clone)",
     stack: "HTML + CSS + JavaScript",
     desc: "Perfect clone of the landing page of the  Opay company's website",
@@ -97,23 +84,15 @@ export const projectsList = [
     site: "https://opayclone.netlify.app/",
   },
   {
-    id: 3,
-    title: "BitApp Crypto Wallet",
-    stack: "HTML + CSS + JavaScript",
-    desc: "A fully responsive mobile application landing page website design.",
-    github: "https://github.com/PJmax26/BitApp",
-    site: "https://bitapp.netlify.app/",
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Themeisle Clone",
     stack: "HTML + CSS + JavaScript, Bootstrap",
     desc: "A clone of the landing page of website templates and themes company, Themeisle",
     github: "https://www.github.com/PJmax26",
-    site: "https://tawk-mauve.vercel.app/",
+    site: "https://themeisle-clone.netlify.app",
   },
   {
-    id: 5,
+    id: 3,
     title: "Tawk",
     stack: "HTML + CSS + JavaScript",
     desc: "A fully responsive social media website design. A home page with chats and groups list section. A profile section to display user info",
@@ -122,7 +101,7 @@ export const projectsList = [
     rank: "featured",
   },
   {
-    id: 6,
+    id: 4,
     title: "SafeBuy",
     stack: "HTML + CSS + JavaScript",
     desc: "SafeBuy is a company that helps home oweners to list out their homes for sale. This is the full website for the SafeBuy company",
@@ -131,7 +110,7 @@ export const projectsList = [
     rank: "featured",
   },
   {
-    id: 7,
+    id: 5,
     title: "YumBites",
     stack: "HTML + CSS + JavaScript",
     desc: "Fully responsive landing page website for a food delivery company. With a products display page for all the different meals available",
@@ -140,7 +119,7 @@ export const projectsList = [
     rank: "featured",
   },
   {
-    id: 8,
+    id: 6,
     title: "DeStore",
     stack: "React + CSS",
     desc: "Fashion e-commerce platform design. Has landing page, a products display page, and a product details page",
@@ -149,7 +128,7 @@ export const projectsList = [
     rank: "featured",
   },
   {
-    id: 9,
+    id: 7,
     title: "Therapist",
     stack: "React + CSS + SCSS",
     desc: "Therapist finder web application. Has a therapists display section with a filtering search feature. A therapist profile page for information on a particular therapist",
@@ -158,7 +137,7 @@ export const projectsList = [
     rank: "featured",
   },
   {
-    id: 10,
+    id: 8,
     title: "GO2DEN",
     stack: "React + SCSS + TailwindCSS",
     desc: "Online Gaming platform design. Showing various players and thier game plays",

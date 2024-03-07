@@ -24,7 +24,7 @@ const Testimonials = ({ active }) => {
           </div>
         </div>
         <p>
-          A devoted software engineer with a constant drive to grow and a
+          A devoted frontend developer with a constant drive to grow and a
           passion for learning. He's quick to pick up new ideas, loves a
           fast-paced work atmosphere, and provides creative solutions with
           efficiency and zeal.
