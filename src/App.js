@@ -1,23 +1,23 @@
 import "./App.scss";
-import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import Resume from "./Components/Resume/Resume";
-import Service from "./Components/Service";
-import Work from "./Components/Work";
-import Skills from "./Components/Skills";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
 import Footer from "./Components/Footer";
+import Allprojects from "./pages/projects/Allprojects";
+import ProjectPage from "./pages/projects/ProjectPage";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Hero />
-      <Resume />
-      <Service />
-      <Work />
-      <Skills />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/my_bio" element={<About />} />
+        <Route path="/projects" element={<Allprojects />} />
+        <Route path="/projects/:id" element={<ProjectPage />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 

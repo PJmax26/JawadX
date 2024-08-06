@@ -1,0 +1,49 @@
+.work {
+  .img {
+    background: pink;
+    width: 25rem;
+    height: 25rem;
+    border-radius: 1rem;
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 10%;
+      left: -10%;
+      width: 100%;
+      height: 100%;
+      border: 5px solid #ff6a00;
+      z-index: -1;
+      border-radius: 1rem;
+    }
+
+    @media screen and (width <= 1000px) {
+      width: 20rem;
+      height: 20rem;
+    }
+    @media screen and (width <= 700px) {
+      width: 22rem;
+      height: 25rem;
+      margin: 0 auto;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .jinx {
+    .img::before {
+      left: auto;
+      right: -10%;
+    }
+  }
+}

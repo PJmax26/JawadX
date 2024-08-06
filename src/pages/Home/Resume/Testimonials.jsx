@@ -1,6 +1,5 @@
-import Pic1 from "../../asserts/Einus.webp";
-import Pic2 from "../../asserts/pic-2.jpg";
-import { TbStarFilled } from "react-icons/tb";
+import EinusImg from "../../../asserts/images/Einus.webp";
+// import { TbStarFilled } from "react-icons/tb";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 
@@ -14,7 +13,7 @@ const Testimonials = ({ active }) => {
       <div className="p-2 sm:p-5">
         <div className="flex justify-between mb-3">
           <div className="flex align-center space-x-2">
-            <img id="tes_pic" src={Pic1} alt="" />
+            <img id="tes_pic" src={EinusImg} alt="" />
             <div>
               <h1 className="hlg">Abukari Einus</h1>
               <p className="text-gray-500">

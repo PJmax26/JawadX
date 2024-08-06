@@ -1,4 +1,4 @@
-import { servicesList } from "../Data";
+import { servicesList } from "../../Data";
 
 const Service = () => {
   return (
@@ -7,7 +7,7 @@ const Service = () => {
         My <span className="text-orange">Services</span>
       </h3>
       <h1 className="hlg text-center">What I Have To Offer</h1>
-      <div className="grid gap-3 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 mt-5">
+      <div className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
         {servicesList.map(({ id, title, desc }) => (
           <div
             key={id}

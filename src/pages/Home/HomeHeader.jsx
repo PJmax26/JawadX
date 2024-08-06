@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Header.scss";
+import "../../asserts/styles/Header.scss";
 
-const Header = () => {
+const HomeHeader = () => {
   const [active, setActive] = useState("home");
   const [nav, setNav] = useState("close");
 
@@ -12,10 +12,10 @@ const Header = () => {
   return (
     <header
       id="hero"
-      className="fixed top-0 left-0 py-5 md:py-0 w-full flex justify-between align-center bg-dark z-20"
+      className="fixed top-0 left-0 py-5 md:py-0 w-full flex justify-between shadow-md align-center bg-dark z-20"
     >
       <div className="logo">
-        Jawad<span className="text-orange">X</span>
+        Jxd Dori<span className="text-orange">X</span>
       </div>
       <nav className="hidden md:flex space-x-3">
         <li
@@ -98,4 +98,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HomeHeader;

@@ -1,12 +1,12 @@
-import html from "./asserts/html.png";
-import css from "./asserts/css.png";
-import js from "./asserts/js.png";
-import scss from "./asserts/scss.png";
-import tw from "./asserts/tw.webp";
-import react from "./asserts/react.png";
-import git from "./asserts/git.png";
-import github from "./asserts/github.png";
-import vscode from "./asserts/vscode.png";
+import html from "./asserts/images/html.png";
+import css from "./asserts/images/css.png";
+import js from "./asserts/images/js.png";
+import scss from "./asserts/images/scss.png";
+import tw from "./asserts/images/tw.webp";
+import react from "./asserts/images/react.png";
+import git from "./asserts/images/git.png";
+import github from "./asserts/images/github.png";
+import vscode from "./asserts/images/vscode.png";
 
 export const servicesList = [
   {
@@ -79,7 +79,7 @@ export const projectsList = [
     id: 1,
     title: "Opay(Clone)",
     stack: "HTML + CSS + JavaScript",
-    desc: "Perfect clone of the landing page of the  Opay company's website",
+    desc: "Perfect clone of Opay's official landing page website. This clone was so perfet that I was asked by GitHub to take the site down or lebel it as a fake.",
     github: "https://github.com/PJmax26",
     site: "https://opayclone.netlify.app/",
   },
@@ -87,45 +87,41 @@ export const projectsList = [
     id: 2,
     title: "Themeisle Clone",
     stack: "HTML + CSS + JavaScript, Bootstrap",
-    desc: "A clone of the landing page of website templates and themes company, Themeisle",
+    desc: "A clone of the landing page website of Themeisle. A templates and themes company",
     github: "https://www.github.com/PJmax26",
     site: "https://themeisle-clone.netlify.app",
   },
-  {
-    id: 3,
-    title: "Tawk",
-    stack: "HTML + CSS + JavaScript",
-    desc: "A fully responsive social media website design. A home page with chats and groups list section. A profile section to display user info",
-    github: "https://www.github.com/PJmax26",
-    site: "https://tawk-mauve.vercel.app/",
-    rank: "featured",
-  },
+  // {
+  //   id: 3,
+  //   title: "Tawk",
+  //   stack: "HTML + CSS + JavaScript",
+  //   desc: "A fully responsive home screen of a social media website. Consists of chats and groups list section. A profile section to display user info",
+  //   github: "https://www.github.com/PJmax26",
+  //   site: "https://tawk-mauve.vercel.app/",
+  // },
   {
     id: 4,
     title: "SafeBuy",
     stack: "HTML + CSS + JavaScript",
-    desc: "SafeBuy is a company that helps home oweners to list out their homes for sale. This is the full website for the SafeBuy company",
+    desc: "SafeBuy is a company that helps home oweners to list out their homes for sale. This is the fully responsive website for the SafeBuy company",
     github: "https://www.github.com/PJmax26",
     site: "https://safebuy.vercel.app/",
-    rank: "featured",
   },
   {
     id: 5,
     title: "YumBites",
     stack: "HTML + CSS + JavaScript",
-    desc: "Fully responsive landing page website for a food delivery company. With a products display page for all the different meals available",
+    desc: "Fully responsive landing page website for a food delivery company. With a products display section for all the different meals available",
     github: "https://www.github.com/PJmax26",
     site: "https://tommyorder.vercel.app/",
-    rank: "featured",
   },
   {
     id: 6,
     title: "DeStore",
     stack: "React + CSS",
-    desc: "Fashion e-commerce platform design. Has landing page, a products display page, and a product details page",
+    desc: "Fashion e-commerce platform designed to allow small scale businesses have a share of the online market. Has landing page, a products display page, and a product details page",
     github: "https://www.github.com/PJmax26",
     site: "https://destore-jade.vercel.app/",
-    rank: "featured",
   },
   {
     id: 7,
@@ -134,15 +130,13 @@ export const projectsList = [
     desc: "Therapist finder web application. Has a therapists display section with a filtering search feature. A therapist profile page for information on a particular therapist",
     github: "https://www.github.com/PJmax26",
     site: "https://dori-therapist.vercel.app/",
-    rank: "featured",
   },
   {
     id: 8,
     title: "GO2DEN",
     stack: "React + SCSS + TailwindCSS",
-    desc: "Online Gaming platform design. Showing various players and thier game plays",
+    desc: "Gaming communitiny web application. Showing various players and thier game plays",
     github: "https://www.github.com/PJmax26",
     site: "https://go2den.vercel.app/",
-    rank: "featured",
   },
 ];
