@@ -26,7 +26,9 @@ const FeaturedProjects = () => {
                 }`}
               >
                 <div className="flex-[1]">
-                  <div className="img">{/* <img src={fintex} alt="" /> */}</div>
+                  <div className="img">
+                    <img src={featured.banner} alt="" />
+                  </div>
                 </div>
                 <div className="flex-[1] place-middle md:mt-0 mt-10">
                   <div>
@@ -45,7 +47,7 @@ const FeaturedProjects = () => {
 
                     <div className="flex align-center space-x-3">
                       <Link
-                        to=""
+                        to={`/projects/${featured.id}/${featured.name}`}
                         className="border-2 w-fit my-4 border-grey hover:border-white transition_ease py-3 px-5 rounded-xl flex align-center space-x-2"
                       >
                         <BookOpen />
