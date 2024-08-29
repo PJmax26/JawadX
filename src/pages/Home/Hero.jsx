@@ -3,6 +3,7 @@ import Profile from "../../asserts/images/profile-bg.png";
 import { FaPaperPlane } from "react-icons/fa6";
 import { FaDownload } from "react-icons/fa6";
 import CV from "../../asserts/data/Resume-re.pdf";
+// import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Hero = () => (
   <section
@@ -15,7 +16,7 @@ const Hero = () => (
     <div className="flex align-center">
       <div>
         <h1 className="font-[900] text-[3rem]">
-          Dori<span className="text-orange">X</span>
+          /Dori<span className="text-orange">Codes</span>/
         </h1>
         <h1 className="mb-3 text-[1.7rem] font-[700]">
           <span className="text-orange">24/7</span> Frontend{" "}

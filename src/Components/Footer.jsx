@@ -12,7 +12,7 @@ const Footer = () => {
       <h3 className="text-center">
         <span className="text-orange">Contact</span> Me
       </h3>
-      <h1 className="hlg text-center">Lets Get In Touch</h1>
+      <h1 className="hlg text-center">Let's Get In Touch ...</h1>
 
       <section className="py-5 align- grid grid-cols-1 sm:grid-cols-3">
         <div className="flex justify-center align-center space-x-3">
@@ -26,7 +26,9 @@ const Footer = () => {
           <MdEmail className="hxl text-orange" />
           <div>
             <h1 className="hmd">Email</h1>
-            <p className="text-gray-500">jawadx176@gmail.com</p>
+            <a href="mailto:jawadnassam26@gmail.com" className="text-gray-500">
+              jawadnassam26@gmail.com
+            </a>
           </div>
         </div>
         <div className="flex justify-center align-center space-x-3">
@@ -42,7 +44,7 @@ const Footer = () => {
         <div className="flex justify-between align-center w-full sm:w-2/3 mx-auto">
           <div>
             <h1 className="hxl">
-              Dori<span className="text-orange">X</span>
+              JawaD<span className="text-orange">X</span>
             </h1>
             <p>Frontend Developer</p>
           </div>
@@ -50,7 +52,7 @@ const Footer = () => {
           <div className="flex align-center space-x-3 w-fit">
             <li className="list-none transition_ease hover:text-orange">
               <a
-                href="https://twitter.com/codes_dori"
+                href="https://twitter.com/Nassam_Jawad"
                 className="hmd"
                 target="_blank"
               >
@@ -88,8 +90,8 @@ const Footer = () => {
         </div>
 
         <p className="text-center mt-10">
-          &copy; Made by Dori<span className="text-orange">X</span> with 💖. All
-          rights reserved
+          &copy; Made by JawaD<span className="text-orange">X</span> with 💖.
+          All rights reserved
         </p>
       </section>
     </div>

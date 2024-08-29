@@ -14,7 +14,7 @@ const About = ({ active }) => {
           <img id="about_pic" src={Profile2} />
         </div>
         <div>
-          <h1 className="text-[1.5rem] lg:text-[2.5rem] font-[700] sm:mt-0 mt-10">
+          <h1 className="text-[1.5rem] lg:text-[2.5rem] font-[700] sm:mt-0 mt-20">
             Hi 👋, I'm Nassam Mohammed Jawad
           </h1>
           <p className="my-3 text-[1.2rem]">
@@ -28,13 +28,13 @@ const About = ({ active }) => {
             engage and inspire visitors.
           </p>
           <Socials />
-          <Link
+          {/* <Link
             to="/my_bio"
             className="border-2 w-fit my-4 border-grey hover:border-white transition_ease py-3 px-5 rounded-xl flex align-center space-x-2"
           >
-            {/* <FaPaperPlane /> */}
+            <FaPaperPlane />
             <span>Learn More About Me</span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

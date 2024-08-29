@@ -103,7 +103,7 @@ export const projectsList = [
     id: 4,
     title: "SafeBuy",
     stack: "HTML + CSS + JavaScript",
-    desc: "SafeBuy is a company that helps home oweners to list out their homes for sale. This is the fully responsive website for the SafeBuy company",
+    desc: "SafeBuy is a company that helps home owners to list out their homes for sale. This is the fully responsive website for the SafeBuy company",
     github: "https://www.github.com/PJmax26",
     site: "https://safebuy.vercel.app/",
   },

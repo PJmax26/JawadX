@@ -15,7 +15,7 @@ const HomeHeader = () => {
       className="fixed top-0 left-0 py-5 md:py-0 w-full flex justify-between shadow-md align-center bg-dark z-20"
     >
       <div className="logo">
-        Jxd Dori<span className="text-orange">X</span>
+        JawaD<span className="text-orange">X</span>
       </div>
       <nav className="hidden md:flex space-x-3">
         <li

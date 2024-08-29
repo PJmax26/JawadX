@@ -25,24 +25,14 @@ const FeaturedProjects = () => {
                     : ""
                 }`}
               >
-                <div className="flex-[1]">
-                  <div className="img">
-                    <img src={featured.banner} alt="" />
-                  </div>
+                <div className="img">
+                  <img src={featured.banner} alt="" />
                 </div>
-                <div className="flex-[1] place-middle md:mt-0 mt-10">
+                <div className="flex-[1] place-middle md:mt-0 mt-10 pl-4">
                   <div>
                     <h1 className="font-[900] text-[3rem]">{featured.name}</h1>
                     <p className="my-3 text-gray-300 text-lg">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos illum aliquid, nihil voluptatibus, iusto natus error
-                      quasi quod, dolores voluptatum quibusdam ad sapiente
-                      ullam. Totam id molestias quia ad quaerat.
-                    </p>
-                    <p className="my-3 text-gray-300 text-lg">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eos illum aliquid, nihil voluptatibus, iusto natus error
-                      quasi quod, dolores voluptatum.
+                      {featured.description}
                     </p>
 
                     <div className="flex align-center space-x-3">
@@ -58,7 +48,9 @@ const FeaturedProjects = () => {
                         className="border-2 w-fit my-4 border-grey hover:border-white transition_ease py-3 px-5 rounded-xl flex align-center space-x-2"
                       >
                         <FaExternalLinkAlt />
-                        <span>Visit Site</span>
+                        <a href={featured.link} target="_blank">
+                          Visit Site
+                        </a>
                       </a>
                     </div>
                   </div>
