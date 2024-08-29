@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import "../../asserts/styles/projects.scss";
 import { featured_projects } from "../../asserts/data/featured_projects";
 import { ArrowLeft } from "lucide-react";
+import { BiLink } from "react-icons/bi";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -54,6 +55,13 @@ const ProjectPage = () => {
           <p className="my-3 text-gray-300 text-[20px]">
             {project.description}
           </p>
+
+          <span className="text-orange flex align-center space-x-1">
+            <BiLink />
+            <a href={project.link} target="_blank">
+              {project.link}
+            </a>
+          </span>
 
           {/* tools section */}
           <div className="project_features mt-5">

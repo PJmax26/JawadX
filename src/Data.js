@@ -7,6 +7,8 @@ import react from "./asserts/images/react.png";
 import git from "./asserts/images/git.png";
 import github from "./asserts/images/github.png";
 import vscode from "./asserts/images/vscode.png";
+import mui from "./asserts/images/mui.png";
+import next from "./asserts/images/next.png";
 
 export const servicesList = [
   {
@@ -71,6 +73,16 @@ export const skillsList = [
     id: 9,
     title: "VSCode",
     img: vscode,
+  },
+  {
+    id: 9,
+    title: "Material UI",
+    img: mui,
+  },
+  {
+    id: 9,
+    title: "Next.JS",
+    img: next,
   },
 ];
 

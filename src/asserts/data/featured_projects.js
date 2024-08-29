@@ -38,34 +38,34 @@ export const featured_projects = [
       },
     ],
   },
-  {
-    id: 2,
-    name: "JENIGH Foundation",
-    description:
-      "JENIGH Foundation is a web application designed to streamline the process of charity fundraising, making it easy for users to find and contribute to various donation campaigns. With a simple and user-friendly interface, JENIGH Foundation aims to connect generous donors with reputable charitable organizations, ensuring that the donation process is as seamless and effective as possible.",
-    banner: jenighBanner,
-    images: [jenigh1, jenigh2, jenigh3, jenigh4, jenigh5],
-    technologies: [react, scss, tw],
-    link: "https://jenigh-foundation.vercel.app/",
-    github: "",
-    features: [
-      "User Authentication and Authorization",
-      "Campaign Search and Participation:",
-      "Simple Donation Process",
-      "Organization Listings",
-      "Campaign Management",
-      "User Accounts",
-      "Admin Dashboard",
-    ],
-    tools: [
-      {
-        name: "MongoDB",
-        usage: "Database Management",
-      },
-      {
-        name: "JWT",
-        usage: "Secure user authentication",
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   name: "JENIGH Foundation",
+  //   description:
+  //     "JENIGH Foundation is a web application designed to streamline the process of charity fundraising, making it easy for users to find and contribute to various donation campaigns. With a simple and user-friendly interface, JENIGH Foundation aims to connect generous donors with reputable charitable organizations, ensuring that the donation process is as seamless and effective as possible.",
+  //   banner: jenighBanner,
+  //   images: [jenigh1, jenigh2, jenigh3, jenigh4, jenigh5],
+  //   technologies: [react, scss, tw],
+  //   link: "https://jenigh-foundation.vercel.app/",
+  //   github: "",
+  //   features: [
+  //     "User Authentication and Authorization",
+  //     "Campaign Search and Participation:",
+  //     "Simple Donation Process",
+  //     "Organization Listings",
+  //     "Campaign Management",
+  //     "User Accounts",
+  //     "Admin Dashboard",
+  //   ],
+  //   tools: [
+  //     {
+  //       name: "MongoDB",
+  //       usage: "Database Management",
+  //     },
+  //     {
+  //       name: "JWT",
+  //       usage: "Secure user authentication",
+  //     },
+  //   ],
+  // },
 ];

@@ -30,7 +30,10 @@ const FeaturedProjects = () => {
                 </div>
                 <div className="flex-[1] place-middle md:mt-0 mt-10 pl-4">
                   <div>
-                    <h1 className="font-[900] text-[3rem]">{featured.name}</h1>
+                    <h1 className="font-[900] text-[3rem]">{featured.name} </h1>
+                    <span className="text-base text-orange">
+                      (Under Development)
+                    </span>
                     <p className="my-3 text-gray-300 text-lg">
                       {featured.description}
                     </p>
