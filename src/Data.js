@@ -88,14 +88,6 @@ export const skillsList = [
 
 export const projectsList = [
   {
-    id: 1,
-    title: "Opay(Clone)",
-    stack: "HTML + CSS + JavaScript",
-    desc: "Perfect clone of Opay's official landing page website. This clone was so perfect that I was asked by GitHub to take the site down or lebel it as a fake.",
-    github: "https://github.com/PJmax26",
-    site: "https://opayclone.netlify.app/",
-  },
-  {
     id: 2,
     title: "Themeisle Clone",
     stack: "HTML + CSS + JavaScript, Bootstrap",

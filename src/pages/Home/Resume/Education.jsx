@@ -10,7 +10,7 @@ const Education = ({ active }) => {
               Jan, 2023 - Present
             </span>
           </div>
-          <div className="hmd text-orange">UNER</div>
+          <div className="hmd text-orange">UENR</div>
           <p className="text-gray-500 hsm">
             Building a solid foundation in Computer Science, Programming and
             Software development
